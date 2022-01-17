@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+nav{
+    width: 100%;
+    height: 60px;
+    background-color: #ed1d2b;
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 729px) {
+    .menu{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .medee .ontsloh{
+        display: none;
+    }
+    .medee .shine{
+        display: none;
+    }
+    nav{
+        height: 120px;
+    }  
+    .logo img{
+        transform: scale(0.3);
+    }
+    .header{
+        display: grid;
+        grid-template-rows: 70% 30% 30%;
+        grid-template-columns: 70% 30% 30%;
+        gap: 5px;
+    }
+    .card{
+        grid-area: 1 / 1 / span 2 / span 1;
+    }
+    .card1{
+        grid-area: 1 / 2;
+    }
+    .card3{
+        grid-area: 2 / 2;
+    }
+    .card-bottom1{
+        display: none;
+    }
+}
+.logo{
+    width: 80%;
+    margin-top: 15px;
+}
+.logo img{
+    width: 100%;
+    height: 70%;
+    object-fit: contain;
+}
+.search{
+    width: 10%;
+    color: #fff;
+    padding-left: 12px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.ad{
+    width: 100%;
+    margin-top: 30px;
+}
+.ad img{
+    width: 100%;
+    height: 50%;
+}
+.medee{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    margin-left: 20%;
+    padding-top: 18px;
+}
+.ontsloh{
+    width: 40%;
+}
+.ontsloh h6{
+    color: #999;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+.ontsloh h6:hover{
+    color: #ed1d2b;
+    border-bottom: #ed1d2b 2px solid;
+    padding-bottom: 10px;
+}
+.shine{
+    width: 40%;
+}
+.shine h6{
+    color: #999;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: center;
+}
+.shine h6:hover{
+    color: #ed1d2b;
+    border-bottom: #ed1d2b 2px solid;
+    padding-bottom: 10px;
+}
+.card{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.card-image img{
+    width: 100%;
+}
+.card-name{
+    padding-top: 10px;
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.card-bottom{
+    padding-top: 10px;
+    color: #999;
+    font-size: 13px;
+}
+.card1{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.card3{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+}
+.card-image1 img{
+    width: 100%;
+}
+.card-name1{
+    padding-top: 10px;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.card-bottom1{
+    padding-top: 10px;
+    color: #999;
+    font-size: 13px;
+}
+.clr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: #999 1px solid;
+}
+.medeenuud{
+    width: 100%;
+}
+.card2{
+    width: 90%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.card-image2 img{
+    width: 100%;
+}
+.card-name2{
+    padding-top: 10px;
+    color: #333;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.bottom{
+    background-color: #21285f;
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    border-bottom: #999 1px solid;
+}
+.logo1{
+    margin-left: 30%;
+    padding-top: 40px;
+}
+.logo1 img{
+    width: 50%;
+    object-fit: contain;
+}
+.navi{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+.navi i{
+    width: 40px;
+    height: 40px;
+    background: #ed1d2b;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.navi p{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.message{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.message i{
+    width: 40px;
+    height: 40px;
+    background: #ed1d2b;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.message p{
+    color: #fff;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.phone{
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.phone i{
+    width: 40px;
+    height: 40px;
+    background: #ed1d2b;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 10px;
+}
+.phone p{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.links{
+    width: 100%;
+    background: #21285f;
+}
+.links p{
+    color: #808080;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+.link2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.appstore{
+    padding-right: 10px;
+}
+.android{
+    padding-left: 10px;
+}
+.menu{
+    width: 10%;
+    color: #fff;
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.menu .tses{
+    width: 63%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    display: none;
+    background: #fff;
+}
+.menu .tses ul{
+    display: block;
+}
+#checkbox:checked ~.tses{
+    display: block;
+}
+#checkbox{
+    display: none;    
+}
+.desc-menu i{
+    color: #999;
+    font-size: 18px;
+}
+.logo3{
+    width: 100%;
+    height: 60px;
+    border-bottom: #e6e6e6 1px solid;
+}
+.logo3 img{
+    width: 33%;
+    margin-top: 14px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+.items{
+    width: 100%;
+    height: 54%;
+    border-bottom: #e6e6e6 1px solid;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.items p{
+    color: #5e5e5e;
+    padding-top: 15px;
+}
+.menu-btm{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+.menu-btm p{
+    color: #5e5e5e;
+    padding-top: 10px;
+}
