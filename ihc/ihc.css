@@ -285,3 +285,118 @@ nav .logo img{
     font-size: 20px;
     padding-top: 20px;
 }
+.companys{
+    width: 100%;
+    height: 15vh;
+    background: #0f1730;
+    display: flex;
+}
+.com-logo{
+    width: 15%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+.com-logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.companys1{
+    width: 100%;
+    height: 20vh;
+    background: #0f1730;
+    display: flex;
+}
+.filler{
+    width: 100%;
+    height: 10vh;
+    background: #0f1730;
+}
+.news{
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(-45deg, rgba(53,42,133,1) 0%, rgba(3,10,35,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.news p{
+    color: #fff;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+    text-align: left;
+}
+.card-cont{
+    width: 100%;
+    padding-top: 190px;
+}
+.card{
+    width: 100%;
+    height: 40vh;
+    padding: 10px;
+}
+.card-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 50px;
+}
+.card-text{
+    width: 100%;
+    color: #fff;
+}
+.toop{
+    position: absolute;
+    left: 5px;
+}
+.button-inside1{
+    width: 150px;
+    height: 40px;
+    border: #cda344 1px solid;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 15px;
+    padding-top: 10px;
+    position: absolute;
+    left: 5px;
+    top: 500px;
+}
+.button-inside1:hover{
+    background: #cda344;
+    color: #333;
+}
+.footer{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(-45deg, rgba(53,42,133,1) 0%, rgba(3,10,35,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+.footer1{
+    width: 20%;
+    height: 50%;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+.footer1 i{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.footer1 p{
+    font-size: 15px;
+    color: #d2aa4d;
+    padding-top: 20px;
+}
+.footer1:hover{
+    border-radius: 5px;
+    border: #fff 1px solid; 
+}
