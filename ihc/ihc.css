@@ -3,14 +3,20 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: #030a23;
-    font-family: Roboto,sans-serif;
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.class{
+    background-image: url(https://www.ihcoin.io/wp-content/uploads/2021/11/ihc-background-1.jpg);
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 nav{
     width: 100%;
     height: 85px;
-    background-color: #2e2775;
+    background: linear-gradient(0deg, rgba(53,41,131,1) 7%, rgba(15,23,48,1) 89%);
     display: flex;
     justify-content: space-between;
     border-bottom: 1px #333 solid;
@@ -124,4 +130,158 @@ nav .logo img{
     justify-content: center;
     align-items: center;
     padding-right: 15px;
+}
+.slider{
+    width: 100%;
+    height: 10vh;
+    background: linear-gradient(107deg, rgba(53,41,131,1) 50%, rgba(15,23,48,1) 100%);
+}
+.twobox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(184deg, rgba(53,41,131,1) 7%, rgba(15,23,48,1) 89%);
+}
+.onebox{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-radius: 40px;
+    background: linear-gradient(107deg, rgba(53,41,131,1) 50%, rgba(15,23,48,1) 100%);
+    padding: 40px;
+}
+.onebox p{
+    color: #fff;
+}
+.onebox h3{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+.onebox b{
+    color: #fff;
+    padding-top: 50px;
+}
+.onebox b:hover{
+    color: #cda344;
+    cursor: pointer;
+}
+.avaible{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(53,41,131,1) 50%, rgba(15,23,48,1) 100%);
+}
+.avaible p{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+.avaible1{
+    background-image: url(https://www.ihcoin.io/wp-content/uploads/2021/11/Soon-Global-Exchange-3-gold.png);
+    height: 70vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gear-final{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(180deg, rgba(53,41,131,1) 50%, rgba(15,23,48,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+}
+.gear-final-photo{
+    width: 50%;
+    height: 70vh;
+}
+.gear-final-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.gear-text{
+    width: 40%;
+    color: #fff;
+    text-align: left;
+}
+.gear-text h3{
+    font-size: 30px;
+}
+.gear-text p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.button-inside{
+    width: 150px;
+    height: 40px;
+    border: #cda344 1px solid;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 40px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+.button-inside:hover{
+    background: #cda344;
+    color: #333;
+}
+.why{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(53,41,131,1) 50%, rgba(15,23,48,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+.why-text{
+    width: 45%;
+    color: #fff;
+    margin-left: 5%;
+}
+.why-text h3{
+    font-size: 30px;
+}
+.why-text p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+.why-photo{
+    width: 50%;
+    height: 80vh;
+}
+.why-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.big-cube{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, rgba(53,41,131,1) 50%, rgba(15,23,48,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+.big-cube-photo{
+    width: 50%;
+    height: 80vh;
+}
+.big-cube-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.big-cube-text{
+    width: 40%;
+    color: #fff;
+}
+.big-cube-text h3{
+    font-size: 30px;
+}
+.big-cube-text p{
+    font-size: 20px;
+    padding-top: 20px;
 }
