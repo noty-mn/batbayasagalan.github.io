@@ -58,6 +58,7 @@ html {
   padding-top: 20px;
   font-family: sans-serif;
   font-size: 12px;
+  border-top: 3px solid #ffffff00;
 }
 
 .menubar .menu .menu-items p:hover {
@@ -146,7 +147,7 @@ html {
   height: 10px;
   background-color: #fc5703;
   border-radius: 50px;
-  margin-left: 40%;
+  margin-left: 41%;
   margin-top: 30px;
 }
 
@@ -185,14 +186,311 @@ html {
   width: 100%;
   height: 100%;
   position: fixed;
-  top: 100vh;
-  left: 0px;
+  top: 80vh;
+  left: 20px;
 }
 
 .tuslamj img {
+  width: 16%;
+  height: 16%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.tuslamj img:hover {
+  cursor: pointer;
+}
+
+.card {
+  width: 18%;
+  height: 79vh;
+  padding-top: 50px;
+}
+
+.card .card-cont {
+  width: 100%;
+  height: 70vh;
+}
+
+.card .card-cont .card-image {
+  width: 40%;
+  height: 30%;
+  margin-left: 30%;
+}
+
+.card .card-cont .card-image img {
   width: 100%;
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.card .card-cont .card-header {
+  text-align: center;
+}
+
+.card .card-cont .card-header h2 {
+  font-size: 45px;
+  padding-top: 20px;
+}
+
+.card .card-cont .card-header h3 {
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.card .card-cont .card-text {
+  width: 85%;
+  text-align: center;
+  margin-left: 7.5%;
+}
+
+.card .card-cont .card-text p {
+  padding-top: 30px;
+  font-size: 15px;
+}
+
+.card-lend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border-bottom: #333 1px solid;
+}
+
+.lend-sucks-con {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.lend-sucks-con p {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.lend-video {
+  width: 100%;
+  padding-top: 50px;
+}
+
+.lend-video .video {
+  width: 90%;
+  height: 50vh;
+  margin-left: 5%;
+}
+
+.lend-video .video img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+.lend-video .video:hover {
+  cursor: pointer;
+}
+
+.card-small-par {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card-small-par .card-small-cont {
+  width: 25%;
+  height: 50vh;
+  padding-top: 50px;
+}
+
+.card-small-par .card-small-cont .card-small .card-s-image {
+  width: 30%;
+  height: 30%;
+  margin-left: 35%;
+}
+
+.card-small-par .card-small-cont .card-small .card-s-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.card-small-par .card-small-cont .card-small .card-s-header h4 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.card-small-par .card-small-cont .card-small .card-s-text {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.card-small-par .card-small-cont .card-small .card-s-text p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.delger {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+.delger .delger-but {
+  width: 300px;
+  height: 40px;
+  margin-left: 37%;
+  border: #fc5703 1px solid;
+  border-radius: 25px;
+}
+
+.delger .delger-but p {
+  text-align: center;
+  padding-top: 10px;
+  color: #fc5703;
+}
+
+.delger .delger-but:hover {
+  background-color: #fc5703;
+  cursor: pointer;
+}
+
+.delger .delger-but:hover p {
+  color: #fff;
+}
+
+.links-cont {
+  width: 100%;
+  height: 13vh;
+  background-color: #f2f2f2;
+}
+
+.links-cont .links {
+  width: 90%;
+  height: 13vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 5%;
+}
+
+.links-cont .links img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.idontknowman {
+  background-image: url(https://lend.mn/image/headerimg/ipoheader.jpg);
+  height: 50vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header1 {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.lend-sucks-con1 {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.lend-sucks-con1 p {
+  padding-top: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.idontknow {
+  padding-top: 20px;
+  width: 100%;
+  margin-left: 8%;
+}
+
+.idontknow img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.footer {
+  width: 100%;
+  height: 40vh;
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+
+.footer .footer-text {
+  width: 20%;
+}
+
+.footer .footer-text h4 {
+  color: #293c43;
+  padding: 3px;
+  font-size: 13px;
+}
+
+.footer .footer-text p {
+  font-size: 13px;
+  color: #5f717d;
+  padding: 3px;
+}
+
+.footer .footer-text p:hover {
+  cursor: pointer;
+  color: #293c43;
+}
+
+.footer1 {
+  width: 100%;
+  height: 20vh;
+  background-color: #f2f2f2;
+}
+
+.footer1 .footer-icon {
+  width: 20%;
+  margin-left: 40%;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.all-rights {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.all-rights p {
+  text-align: center;
+  color: #627480;
+  font-size: 13px;
 }
 /*# sourceMappingURL=lend.css.map */
