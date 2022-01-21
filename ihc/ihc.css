@@ -112,13 +112,24 @@ nav .logo img{
 .useg{
     display: flex;
     position: absolute;
-    top: 260px;
+    top: 280px;
+}
+.buyon:hover{
+    cursor: pointer;
+    width: 255px;
+    height: 60px;
+    background: #cda344;
+    border-radius: 15px;
+    border: 2px #cda344 solid;
+}
+.buyon p:hover{
+    color: #333;
 }
 .buyon p{
     color: #fff;
     width: 255px;
     height: 60px;
-    border: 2px #d2aa4d solid;
+    border: 2px #cda344 solid;
     border-radius: 15px;
     padding-top: 17px;
     padding-left: 40px;
